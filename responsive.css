@@ -1,0 +1,270 @@
+@media (min-width: 360px) and (max-width: 479px) {
+body {
+  overflow-x: hidden;
+}
+.shape1{
+  top:0%;
+}
+.shape5 {
+  right: 75%;
+  opacity: 1;
+  z-index: 1;
+}
+.hero-text h1 {
+    font-size: 2rem;
+}
+.hero-text p {
+    line-height: 24px;
+    width: 90%;
+}
+ .hero-btn {
+    font-weight: 500;
+    padding: 8px 24px;
+}
+.phones img {
+    width: 150px;
+    height:300px;
+}
+.phone1 {
+left: 30px;
+}
+.phone2 {
+  left: 0px;
+}
+.facilities {
+  height: 80vh;
+}
+.facilities h2{
+    font-size: 30px;
+}  
+.triangle-wrapper {
+      width: 200px;
+    }
+    .triangle-center {
+        top:35%;
+      width: 80px;
+      height: 80px;
+    }
+    .triangle-center img {
+       width: 50px;
+    }
+    .triangle-icon-box {
+      border-radius: 15px;
+      width: 60px;
+      height: 60px;
+    }
+    .triangle-icon-box img {
+      width: 40px;
+    }
+    .triangle-item {
+      width: 120px;
+    }
+    .triangle-item h5 {
+      font-size: 14px;
+    }
+    .triangle-item p {
+      font-size: 10px;  
+    }
+    .item-left {
+      transform: translateY(245px);
+      left: -80px;
+    }
+    .item-right {
+      transform: translateY(260px);
+      right: -80px;
+    }
+    .line1,.line3 {
+      height: 234px;
+    }
+    .line1 {
+    left: 44%;
+    transform: translateY(142px)rotate(30deg);
+    }
+    .line2 {
+    height: 180px;
+    right: 9px;
+    transform: translateY(375px)rotate(90deg);
+    }
+    .line3 {
+    right: 44%;
+    transform: translateY(142px)rotate(-30deg);
+    }
+    .feature-card {
+      padding: 15px 6px;
+      height: 30vh;
+    }
+.feature h2, .profit h2{
+      font-size: 25px;
+      line-height: 35px;
+    } 
+    .feature-icon {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 16px;
+      transform: translateX(0px);
+    }
+     .feature-title {
+      text-align: center;
+      transform: translateX(0px);
+    }
+    .feature-description {
+      text-align: center;
+      width: 90%;
+    }
+    .profit{
+        height: 250vh;
+    }
+    .profit-icon {
+      width: 150px;
+      height: 150px;
+    }
+    .profit-title {
+      font-size: 1.5rem;
+      line-height: 38px;
+    }
+ .profit-content p{
+     font-size: 12px;
+      line-height: 20px;
+ }
+    .profit-description {
+      font-size: 12px;
+      line-height: 20px;
+      transform: translateX(-64px);
+    }
+    h3{
+      font-size: 25px;
+    }
+ .earn-icon {
+      transform: translate(42px, 125px);
+    }
+    .prize{
+      width: 200px;transform: translate(100px,-10px); text-align: right; color:#fff;
+    }
+    .earn1{
+      width: 250px; transform: translateX(30px); text-align: right;
+    }
+    .earn2{
+      width: 250px;
+    }
+    .earn-icon2{
+      transform: translate(-135px, 125px);
+    }
+    .earn-icon3{
+       transform: translate(30px, 125px);
+    }
+    .mobiles h2{
+     font-size: 30px;
+     line-height: 35px;
+    }
+     .image-box img {
+        width: 115px;
+     }
+  .image-box:first-child {
+    margin-left: 0px;
+  }
+  .image-box:last-child {
+    margin-right: 0px;
+  }
+  .type-icon {
+      transform: translateX(0px);
+    }
+
+    .type-title {
+      text-align: center;
+      transform: translateX(0px);
+    }
+
+    .type-description {
+      text-align: center;
+      width: 90%;
+      transform: translateX(12px);
+    }
+    .faq{
+      height: 180vh;
+    }
+    .footer-hero-btn {
+      padding: 8px 4px;
+      border-radius: 6px;
+    }
+}
+@media (min-width: 375px) and (max-width: 479px) {
+    .profit-description {
+      transform: translateX(-54px);
+    }
+ .earn-icon {
+      transform: translate(58px, 120px);
+    }
+    .earn-icon3{
+       transform: translate(46px, 120px);
+    }
+    .faq{
+      height: 180vh;
+    }
+    .footer-hero-btn {
+      padding: 8px 4px;
+      border-radius: 6px;
+    }
+}
+@media (min-width: 390px) and (max-width: 479px) {
+    .profit-description {
+      transform: translateX(-50px);
+    }
+ .earn-icon {
+      transform: translate(72px, 125px);
+    }
+    .earn-icon3{
+       transform: translate(62px, 125px);
+    }
+    .faq{
+      height: 170vh;
+    }
+    .footer-hero-btn {
+      padding: 8px 4px;
+      border-radius: 6px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .facilities {
+  height: 70vh;
+}
+    .feature h2, .profit h2{
+      font-size: 30px;
+      line-height: 35px;
+    } 
+    .profit{
+        height: 150vh;
+    }
+ .profit-title {
+      font-size: 1.5rem;
+      line-height: 28px;
+    }
+     .profit-icon {
+      width: 140px;
+      height: 140px;
+    }
+    .earn-icon {
+      transform: translate(42px, 180px);
+    }
+    .earn-icon2{
+      transform: translate(-135px, 180px);
+    }
+    .earn-icon3{
+       transform: translate(30px, 180px);
+    }
+    .mobiles h2 {
+    font-size: 30px;
+    line-height: 35px;
+}
+ .image-box img {
+        width: 170px;
+     }
+  .image-box:first-child {
+    margin-left: 60px;
+  }
+  .image-box:last-child {
+    margin-right: 80px;
+  }
+  .faq{
+      height: 130vh;
+    }
+}
